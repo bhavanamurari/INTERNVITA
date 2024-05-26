@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        body{
+            background-image: url('music.jpg');
+            background-size: cover;
+        }
+        navbar{
+            background-image: linear-gradient(rgb(97, 85, 85),black);
+            display: flex;
+            flex-direction: row-reverse;
+            gap: 30px;
+            height: 40px;
+            align-items: center;
+        }
+        a{
+            text-decoration: none;
+            color: white;
+        }
+        section{
+            color: white;
+        }
+        #music{
+            font-size: larger;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        #button{
+            margin-top: 350px;
+            border-radius: 5px;
+            border: none;
+            padding: 5px;
+            color: white;
+            font-weight: 600;
+            background-image:linear-gradient(rgb(97, 85, 85),black) ;
+        }
+        footer{
+            margin-top: 70px;
+            border-top: 2px solid white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            gap: 30px;
+            background-image: linear-gradient(rgb(97, 85, 85),black);
+            height: 30px;
+        }
+    </style>
+</head>
+<body>
+    <navbar>
+        <a href="#" style="margin-right: 20px;">Home</a>
+        <a href="#">Contact Us</a>
+        <a href="#">About</a>
+        <a href="#">Register</a>
+    </navbar>
+    <section>
+        <h1><i>MUSIC...</i></h1>
+        <p id="music">Music is an ancient art form that began during prehistoric times and carries with it a history for each human culture throughout the world.</p>
+        <a href="https://en.wikipedia.org/wiki/Music"><button type="button" id="button">To know more</button></a>
+    </section>
+    <footer>
+        <div>
+            <i class="fa-brands fa-instagram"></i>
+            music_life
+        </div>
+        <div>
+            <i class="fa-regular fa-envelope"></i>
+            music_life@gmail.com
+        </div>
+        <div>
+            <i class="fa-brands fa-facebook"></i>
+            music_life
+        </div>
+    </footer>
+</body>
+</html>
